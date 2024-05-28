@@ -11,29 +11,34 @@ html body #fullheight {
 }
 
 .container {
-  /* height: 100%; */
+  width: 600px;
+  padding: 20px;
+  margin: auto;
   background-color: black;
+  border-radius: 10px;
 }
 
 .result {
   display: flex;
   justify-content: flex-end;
-  align-items: flex-end;
   color: white;
-  height: 39%;
+  height: 100px;
 }
 
 .result span {
   margin-right: 60px;
-  font-size: 210px;
-  justify-self: flex-end;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
 }
 
 .buttons {
-  width: 100%;
+  width: 600px;
   height: 60%;
   background-color: black;
   display: grid;
+  justify-content: center;
+  margin: auto;
   grid-template-columns: 25% 25% 25% 25%;
 }
 
@@ -41,11 +46,11 @@ html body #fullheight {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 50px;
+  font-size: 30px;
   color: white;
   border-radius: 100%;
-  width: 180px;
-  height: 180px;
+  width: 140px;
+  height: 140px;
   padding: 10px;
   cursor: pointer;
   align-self: center;
@@ -79,7 +84,7 @@ html body #fullheight {
 
 .itemZero {
   background-color: #343434;
-  width: 500px;
+  width: 280px;
   border-radius: 153px;
   grid-column: span 2;
   border: none;
